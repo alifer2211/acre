@@ -1,0 +1,102 @@
+
+  
+ /* Reset e base */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+  background: linear-gradient(to right, #006400, #228B22);
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+/* Navegação */
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 12px;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background 0.3s ease;
+}
+
+nav a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Conteúdo principal */
+main {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+main h2 {
+  color: #006400;
+  margin-bottom: 15px;
+}
+
+/* Imagens responsivas */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Rodapé */
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #e0e0e0;
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 30px;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 1.8rem;
+  }
+
+  nav a {
+    display: block;
+    margin: 5px 0;
+  }
+
+  main {
+    padding: 10px;
+  }
+}
+
+.imgcentro{
+  text-align: center;
+}
+
+.turismo{
+  text-align: center;
+  height: 200px;
+}
