@@ -1,4 +1,6 @@
 
+  
+ /* Reset e base */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -12,6 +14,7 @@ body {
   line-height: 1.6;
 }
 
+/* Cabeçalho */
 header {
   background: linear-gradient(to right, #006400, #228B22);
   padding: 20px;
@@ -24,6 +27,7 @@ header h1 {
   margin-bottom: 10px;
 }
 
+/* Navegação */
 nav {
   margin-top: 10px;
 }
@@ -41,6 +45,7 @@ nav a:hover {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
+/* Conteúdo principal */
 main {
   max-width: 1000px;
   margin: 30px auto;
@@ -54,12 +59,14 @@ main h2 {
   margin-bottom: 15px;
 }
 
+/* Imagens responsivas */
 img {
   max-width: 100%;
   height: auto;
   border-radius: 8px;
 }
 
+/* Rodapé */
 footer {
   text-align: center;
   padding: 15px;
@@ -69,6 +76,7 @@ footer {
   margin-top: 30px;
 }
 
+/* Responsividade */
 @media (max-width: 600px) {
   header h1 {
     font-size: 1.8rem;
